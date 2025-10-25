@@ -25,7 +25,8 @@ app.use(cors({
   origin: [
     'http://localhost:5173', // dev frontend
     'http://localhost:5174',
-    'https://job-portal-swart-iota-65.vercel.app' // deployed frontend
+    'https://job-portal-swart-iota-65.vercel.app', // deployed frontend
+    'https://job-portal-frontend-beta-seven.vercel.app/'
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization", "token"],
